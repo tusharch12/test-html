@@ -1,0 +1,58 @@
+.bg-primary {
+    background-color: #08003a;
+}
+
+.in-bl {
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+    color: white;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 40 px;
+}
+
+body {
+    margin: 0px;
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 65vh;
+    width: 100%;
+    box-sizing: content-box;
+}
+
+.cen {
+    text-align: center;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #textedit {
+    justify-content: center;
+    background: white;
+    display: inline-block;
+    height: 20px;
+    width: 40vw;
+    border: 2px solid red;
+} */
+
+#main>* {
+    color: white;
+}
+
+#ava-platform-img{
+    display: flex;
+    justify-content: center;
+    
+}
